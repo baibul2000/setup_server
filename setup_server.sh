@@ -34,7 +34,7 @@ cd /opt/vpnbrr || {
 
 # Клонируем репозиторий
 echo "Клонируем репозиторий..."
-if ! git clone https://baibul2000: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@github.com/yourname/repo.git/vpnbrr-server .; then 
+if ! git clone https://baibul2000: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@github.com/vpnbrr/vpnbrr-server.git .; then 
   echo "ОШИБКА: Не удалось клонировать репозиторий!" >&2
   exit 1
 fi
